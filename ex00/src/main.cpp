@@ -9,7 +9,6 @@ int main(int ac, char **argv)
 			throw std::invalid_argument("Program needs only 1 (one) argument");
 		if (ac < 2)
 			throw std::invalid_argument("Program needs 1 (one) argument");
-//		std::cout << "input : " << argv[1] << std::endl;
 		ScalarConverter::convert(argv[1]);
 	}
 	catch(std::exception & e)

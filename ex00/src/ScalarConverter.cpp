@@ -29,7 +29,7 @@ bool	is_digit(std::string str)
 	{
 		if (str[i + 1] == 0 && str[i] == 'f')
 			return true;
-		if ((str[i] < 48 || str[i] > 57) && str[i] != '.')
+		if ((str[i] < '0' || str[i] > '9') && str[i] != '.')
 			return false;
 		if (str[i] == '.')
 			nb_fp++;
