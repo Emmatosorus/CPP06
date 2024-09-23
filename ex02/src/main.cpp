@@ -17,11 +17,20 @@ Base * generate(void)
 	while (++i < rounds)
 		nb = rand();
 	if (nb % 3 == 1)
+	{
+		std::cout << "Created A()" << std::endl;
 		return new A();
+	}
 	else if (nb % 3 == 2)
+    {
+		std::cout << "Created B()" << std::endl;
 		return new B();
+    }
 	else
+	{
+		std::cout << "Created C()" << std::endl;
 		return new C();
+	}
 }
 
 void	identify(Base * p)
