@@ -2,7 +2,7 @@
 #define SCALARCONVERTER_H
 
 #include <iostream>
-#include <stdlib.h>
+#include <cstdlib>
 #include <limits>
 
 #define RED "\x1b[31m"
