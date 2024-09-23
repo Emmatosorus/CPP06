@@ -3,12 +3,7 @@
 
 #include <iostream>
 #include <stdint.h>
-
-struct Data
-{
-	int			dt;
-	std::string name;
-};
+#include "Data.h"
 
 class ASerializer
 {
